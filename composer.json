@@ -1,0 +1,16 @@
+{
+	"name": "wapplersystems/ws-less",
+	"type": "typo3-cms-extension",
+	"description": "Less compiler for TYPO3",
+	"homepage": "https://github.com/visol/ws_less",
+	"license": ["GPL-2.0+"],
+	"version": "1.0.0",
+	"require": {
+		"typo3/cms-core": ">6.2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"WapplerSystems\\WsLess\\": "Classes"
+		}
+	}
+}
