@@ -157,9 +157,9 @@ class RenderPreProcessorHook {
 	 */
 	protected function compileScss($lessFilename,$cssFilename,$vars) {
 
-		$extPath = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath('ws_less');
-		require_once($extPath.'Resources/Private/less.php/lib/Less/Autoloader.php');
-		\Less_Autoloader::register();
+//		$extPath = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath('ws_less');
+//		require_once($extPath.'Resources/Private/less.php/lib/Less/Autoloader.php');
+//		\Less_Autoloader::register();
 
 		$parser = new \Less_Parser();
 		if (file_exists($lessFilename)) {
